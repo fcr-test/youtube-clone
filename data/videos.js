@@ -1,0 +1,73 @@
+export const videos = [{
+  thumbnail: 'thumbnails/thumbnail-1.webp',
+  title: 'Talking Tech and AI with Google CEO Sundar Pichai!',
+  url: 'https://www.youtube.com/watch?v=n2RNcPRtAiY',
+  channel: {
+    picture: 'channel-pictures/channel-1.jpeg',
+    name: 'Marques Brownlee',
+    url: 'https://www.youtube.com/c/mkbhd',
+  },
+  views: '3.4M',
+  date: '6 months ago',
+  length: '',
+}, {
+  thumbnail: 'thumbnails/thumbnail-2.webp',
+  title: 'Try Not To Laugh Challenge #9',
+  url: 'https://www.youtube.com/watch?v=mP0RAo9SKZk',
+  channel: {
+    picture: 'channel-pictures/channel-2.jpeg',
+    name: 'Markiplier',
+    url: 'https://www.youtube.com/c/markiplier',
+  },
+  views: '19M',
+  date: '4 years ago',
+  length: '',
+}, {
+  thumbnail: 'thumbnails/thumbnail-3.webp',
+  title: 'Crazy Tik Toks Taken Moments Before DISASTER',
+  url: 'https://www.youtube.com/watch?v=FgjPQQeTh1w',
+  channel: {
+    picture: 'channel-pictures/channel-3.jpeg',
+    name: 'SSSniperWolf',
+    url: 'https://www.youtube.com/user/SSSniperWolf',
+  },
+  views: '12M',
+  date: '1 year ago',
+  length: '',
+}, {
+  thumbnail: 'thumbnails/thumbnail-4.webp',
+  title: 'The Simplest Math Problem No One Can Solve - Collatz Conjecture',
+  url: 'https://www.youtube.com/watch?v=094y1Z2wpJg',
+  channel: {
+    picture: 'channel-pictures/channel-4.jpeg',
+    name: 'Veritasium',
+    url: 'https://www.youtube.com/c/veritasium',
+  },
+  views: '18M',
+  date: '4 months ago',
+  length: '',
+}, {
+  thumbnail: 'thumbnails/thumbnail-5.webp',
+  title: "Kadane's Algorithm to Maximum Sum Subarray Problem",
+  url: 'https://www.youtube.com/watch?v=86CQq3pKSUw',
+  channel: {
+    picture: 'channel-pictures/channel-5.jpeg',
+    name: 'CS Dojo',
+    url: 'https://www.youtube.com/c/CSDojo',
+  },
+  views: '519K',
+  date: '5 years ago',
+  length: '',
+}, {
+  thumbnail: 'thumbnails/thumbnail-6.webp',
+  title: 'Anything You Can Fit In The Circle I’ll Pay For',
+  url: 'https://www.youtube.com/watch?v=yXWw0_UfSFg',
+  channel: {
+    picture: 'channel-pictures/channel-6.jpeg',
+    name: 'MrBeast',
+    url: 'https://www.youtube.com/channel/UCX6OQ3DkcsbYNE6H8uQQuVA',
+  },
+  views: '141M',
+  date: '1 year ago',
+  length: '',
+}];
