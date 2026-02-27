@@ -9,7 +9,7 @@ function renderVideoGrid() {
         <div class="thumbnail-row">
           <img class="thumbnail" src="${video.thumbnail}">
         </div>
-        <div>
+        <div class=video-info-grid>
           <div class="channel-picture">
             <img class="profile-picture" src="${video.channel.picture}">
           </div>
