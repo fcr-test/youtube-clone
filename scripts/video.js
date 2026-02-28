@@ -6,18 +6,24 @@ function renderVideoGrid() {
   videos.forEach((video) => {
     html += `
       <div class="video-preview">
-        <div class="thumbnail-row">
-          <img class="thumbnail" src="${video.thumbnail}">
-          <div class="video-time">${video.length}</div>
-        </div>
+        <a href=${video.url}>
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="${video.thumbnail}">
+            <div class="video-time">${video.length}</div>
+          </div>
+        </a>
         <div class=video-info-grid>
           <div class="channel-picture">
-            <img class="profile-picture" src="${video.channel.picture}">
+            <a href="${video.channel.url}">
+              <img class="profile-picture" src="${video.channel.picture}">
+            </a>
           </div>
           <div class="video-info">
-            <p class="video-title">
-              ${video.title}
-            </p>
+            <a class="video-title-link" href="${video.url}">
+              <p class="video-title">
+                ${video.title}
+              </p>
+            </a>
             <p class="video-author">
               ${video.channel.name}
             </p>
