@@ -14,9 +14,22 @@ function renderVideoGrid() {
         </a>
         <div class=video-info-grid>
           <div class="channel-picture">
-            <a href="${video.channel.url}">
-              <img class="profile-picture" src="${video.channel.picture}">
-            </a>
+            <div class="profile-picture-container">
+              <a href="${video.channel.url}">
+                <img class="profile-picture" src="${video.channel.picture}">
+              </a>
+              <div class="channel-tooltip">
+                <img class="channel-tooltip-picture" src="${video.channel.picture}">
+                <div>
+                  <div class="channel-tooltip-name">
+                    ${video.channel.name}
+                  </div>
+                  <div class="channel-tooltip-stats">
+                    ${video.channel.subscribers} subscribers
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="video-info">
             <a class="video-title-link" href="${video.url}">

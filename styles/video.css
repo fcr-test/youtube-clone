@@ -26,9 +26,55 @@
   border-radius: 4px;
 }
 
+.profile-picture-container {
+  position: relative;
+  display: inline-block;
+}
+
 .profile-picture {
   width: 100%;
   border-radius: 25px;
+}
+
+.channel-tooltip {
+  position: absolute;
+  bottom: -90px;
+  z-index: 90;
+
+  background-color: white;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 12px;
+  padding-right: 50px;
+  white-space: nowrap;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.15s;
+
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.profile-picture-container:hover .channel-tooltip {
+  opacity: 1;
+}
+
+.channel-tooltip-picture {
+  width: 60px;
+  border-radius: 30px;
+}
+
+.channel-tooltip-name {
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+.channel-tooltip-stats {
+  color: rgb(100, 100, 100);
+  font-size: 14px;
 }
 
 .video-info-grid {
