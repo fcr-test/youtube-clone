@@ -97,6 +97,27 @@
   height: 24px;
 }
 
+.notifications-icon-container {
+  position: relative;
+}
+
+.notifications-count {
+  position: absolute;
+  top: -4px;
+  right: -8px;
+
+  background-color: rgb(204, 0, 0);
+  color: white;
+  font-size: 10px;
+  width: 16px;
+  height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  border: 2px solid white;
+}
+
 .current-user-picture {
   height: 32px;
   border-radius: 16px;
