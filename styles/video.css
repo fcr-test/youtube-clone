@@ -44,7 +44,8 @@
   margin-bottom: 6px;
 }
 
-.video-title-link {
+.video-title-link,
+.channel-link {
   text-decoration: none;
   color: black;
 }

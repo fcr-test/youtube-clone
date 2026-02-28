@@ -24,9 +24,11 @@ function renderVideoGrid() {
                 ${video.title}
               </p>
             </a>
-            <p class="video-author">
-              ${video.channel.name}
-            </p>
+            <a class="channel-link" href="${video.channel.url}">
+              <p class="video-author">
+                ${video.channel.name}
+              </p>
+            </a>
             <p class="video-stats">
               ${video.views} views &#183; ${video.date}
             </p>
