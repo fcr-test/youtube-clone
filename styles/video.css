@@ -7,10 +7,23 @@
 
 .thumbnail-row {
   margin-bottom: 6px;
+  position: relative;
 }
 
 .thumbnail {
   width: 100%;
+}
+
+.video-time {
+  position: absolute;
+  bottom: 12px;
+  right: 8px;
+
+  background-color: rgba(0, 0, 0, 0.75);
+  color: white;
+  font-size: 13px;
+  padding: 4px;
+  border-radius: 4px;
 }
 
 .profile-picture {

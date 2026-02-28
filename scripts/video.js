@@ -8,6 +8,7 @@ function renderVideoGrid() {
       <div class="video-preview">
         <div class="thumbnail-row">
           <img class="thumbnail" src="${video.thumbnail}">
+          <div class="video-time">${video.length}</div>
         </div>
         <div class=video-info-grid>
           <div class="channel-picture">

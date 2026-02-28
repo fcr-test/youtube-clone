@@ -9,7 +9,7 @@ export const videos = [{
   },
   views: '3.4M',
   date: '6 months ago',
-  length: '',
+  length: '14:20',
 }, {
   thumbnail: 'thumbnails/thumbnail-2.webp',
   title: 'Try Not To Laugh Challenge #9',
@@ -21,7 +21,7 @@ export const videos = [{
   },
   views: '19M',
   date: '4 years ago',
-  length: '',
+  length: '8:22',
 }, {
   thumbnail: 'thumbnails/thumbnail-3.webp',
   title: 'Crazy Tik Toks Taken Moments Before DISASTER',
@@ -33,7 +33,7 @@ export const videos = [{
   },
   views: '12M',
   date: '1 year ago',
-  length: '',
+  length: '9:13',
 }, {
   thumbnail: 'thumbnails/thumbnail-4.webp',
   title: 'The Simplest Math Problem No One Can Solve - Collatz Conjecture',
@@ -45,7 +45,7 @@ export const videos = [{
   },
   views: '18M',
   date: '4 months ago',
-  length: '',
+  length: '22:09',
 }, {
   thumbnail: 'thumbnails/thumbnail-5.webp',
   title: "Kadane's Algorithm to Maximum Sum Subarray Problem",
@@ -57,7 +57,7 @@ export const videos = [{
   },
   views: '519K',
   date: '5 years ago',
-  length: '',
+  length: '11:17',
 }, {
   thumbnail: 'thumbnails/thumbnail-6.webp',
   title: 'Anything You Can Fit In The Circle I’ll Pay For',
@@ -69,5 +69,5 @@ export const videos = [{
   },
   views: '141M',
   date: '1 year ago',
-  length: '',
+  length: '19:59',
 }];
