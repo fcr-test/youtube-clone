@@ -4,6 +4,13 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: white;
+  border-bottom: 1px solid rgb(230, 230, 230);
 }
 
 .left-section {
@@ -13,8 +20,8 @@
 
 .hamburger-menu-icon {
   height: 24px;
-  margin-left: 24px;
-  margin-right: 24px;
+  margin-left: 28px;
+  margin-right: 28px;
 }
 
 .youtube-logo {
