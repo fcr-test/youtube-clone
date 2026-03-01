@@ -117,6 +117,16 @@
 }
 
 .search-button,
+.voice-search-button {
+  transition: background-color 0.2s;
+}
+
+.search-button:hover,
+.voice-search-button:hover {
+  background-color: rgb(235, 235, 235);
+}
+
+.search-button,
 .voice-search-button,
 .upload-icon-container,
 .youtube-apps-icon-container,
@@ -126,11 +136,6 @@
   justify-content: center;
   align-items: center;
   cursor: pointer;
-}
-
-.search-button:hover,
-.voice-search-button:hover {
-  background-color: rgb(235, 235, 235);
 }
 
 .search-button .tooltip,
@@ -147,7 +152,7 @@
   border-radius: 2px;
   font-size: 12px;
   opacity: 0;
-  transition: opacity 0.15s;
+  transition: opacity 0.2s;
   pointer-events: none;
 }
 
