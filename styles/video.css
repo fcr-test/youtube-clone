@@ -5,6 +5,30 @@
   row-gap: 40px;
 }
 
+@media (max-width: 680px) {
+  .video-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width: 681px) and (max-width: 970px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 971px) and (max-width: 1299px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 1300px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
 .thumbnail-row {
   margin-bottom: 8px;
   position: relative;
