@@ -11,19 +11,19 @@
   }
 }
 
-@media (min-width: 681px) and (max-width: 970px) {
+@media (min-width: 680.1px) and (max-width: 970px) {
   .video-grid {
     grid-template-columns: 1fr 1fr;
   }
 }
 
-@media (min-width: 971px) and (max-width: 1299px) {
+@media (min-width: 970.1px) and (max-width: 1450px) {
   .video-grid {
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
 
-@media (min-width: 1300px) {
+@media (min-width: 1450.1px) {
   .video-grid {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
