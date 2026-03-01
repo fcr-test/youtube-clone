@@ -29,3 +29,9 @@
 .sidebar-link div {
   font-size: 10px;
 }
+
+@media (min-width: 1000px) {
+  .sidebar-link div {
+    font-size: 11px;
+  }
+}
