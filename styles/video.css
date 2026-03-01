@@ -6,7 +6,7 @@
 }
 
 .thumbnail-row {
-  margin-bottom: 6px;
+  margin-bottom: 8px;
   position: relative;
 }
 
@@ -79,7 +79,7 @@
 
 .video-info-grid {
   display: grid;
-  grid-template-columns: 50px 1fr;
+  grid-template-columns: 40px 1fr;
   column-gap: 8px;
 }
 
@@ -103,5 +103,5 @@
 }
 
 .video-author {
-  margin-bottom: 2px;
+  margin-bottom: 4px;
 }
