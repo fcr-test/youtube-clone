@@ -24,10 +24,15 @@
   height: 24px;
   margin-left: 28px;
   margin-right: 28px;
+  cursor: pointer;
 }
 
 .youtube-logo {
   height: 20px;
+}
+
+.youtube-icon {
+  display: none;
 }
 
 .middle-section {
@@ -37,6 +42,12 @@
   max-width: 480px;
   display: flex;
   align-items: center;
+}
+
+@media (min-width: 1200px) {
+  .middle-section {
+    max-width: 600px;
+  }
 }
 
 .search-bar {
@@ -68,7 +79,8 @@
   height: 24px;
 }
 
-.voice-search-button {
+.voice-search-button,
+.small-search-button {
   height: 40px;
   width: 40px;
   border: none;
@@ -76,7 +88,8 @@
   background-color: rgb(248, 248, 248);
 }
 
-.voice-search-icon {
+.voice-search-icon,
+.small-search-icon {
   height: 24px;
 }
 
@@ -117,17 +130,20 @@
 }
 
 .search-button,
-.voice-search-button {
+.voice-search-button,
+.small-search-button {
   transition: background-color 0.2s;
 }
 
 .search-button:hover,
-.voice-search-button:hover {
+.voice-search-button:hover,
+.small-search-button:hover {
   background-color: rgb(235, 235, 235);
 }
 
 .search-button,
 .voice-search-button,
+.small-search-button,
 .upload-icon-container,
 .youtube-apps-icon-container,
 .notifications-icon-container {
@@ -140,6 +156,7 @@
 
 .search-button .tooltip,
 .voice-search-button .tooltip,
+.small-search-button .tooltip,
 .upload-icon-container .tooltip,
 .youtube-apps-icon-container .tooltip,
 .notifications-icon-container .tooltip {
@@ -158,10 +175,46 @@
 
 .search-button:hover .tooltip,
 .voice-search-button:hover .tooltip,
+.small-search-button:hover .tooltip,
 .upload-icon-container:hover .tooltip,
 .youtube-apps-icon-container:hover .tooltip,
 .notifications-icon-container:hover .tooltip {
   opacity: 1;
+}
+
+.small-search-button {
+  display: none;
+}
+
+@media (max-width: 680px) {
+  .youtube-logo {
+    display: none;
+  }
+
+  .youtube-icon {
+    display: inline-block;
+    height: 22px;
+  }
+
+  .middle-section {
+    justify-content: end;
+    margin-right: 20px;
+  }
+
+  .search-bar,
+  .search-button {
+    display: none;
+  }
+
+  .small-search-button {
+    display: flex;
+    margin-right: 10px;
+  }
+
+  .small-search-button,
+  .voice-search-button {
+    background-color: transparent;
+  }
 }
 
 .current-user-picture {
